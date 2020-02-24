@@ -1,5 +1,8 @@
-<h1>Burgers!</h1>
+<h1>Eat-Da-Burger!</h1>
 
+<img src="assets/css/high-res-combo.jpg" alt="Burger" width="30%" height="30%" class="center">
+
+<div id="readySection" class="center">
 <h2>Burgers - hot and ready to eat!</h2>
 
 <ul>
@@ -9,7 +12,9 @@
     {{/unless}}
   {{/each}}
 </ul>
+</div>
 
+<div id="devouredSection" class="center">
 <h2>Burgers that have been eaten!</h2>
 
 <ul>
@@ -19,8 +24,10 @@
     {{/if}}
   {{/each}}
 </ul>
+</div>
 
 <h2>Add a Burger</h2>
+<div id="addSection">
 <form class="create-form">
 
   <div class="form-group">
@@ -34,5 +41,6 @@
     <input type="radio" name="devoured" value="0"> Ready to Eat!
   </div>
 
-  <button type="submit">Add Burger</button>
+  <button class="submit" type="submit">Add Burger</button>
 </form>
+</div>
