@@ -1,4 +1,4 @@
-# nodeExpressHandlebars
+# eat-da-burger
 
 ## User Story
 
@@ -11,6 +11,6 @@ An employee or manager would benefit greatly from being able to view non-sensiti
 ## Link to screenshot of website
 
 ## Technologies used
-
+Node, express, handlebars
 
 ## Acknowledgements
